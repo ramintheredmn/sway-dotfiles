@@ -1,8 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt6ct
-SETUVAR --export TERMINAL:kitty
-SETUVAR --export TERMINALEMULATOR:kitty
+SETUVAR --export TERMINAL:ghostty
+SETUVAR --export TERMINALEMULATOR:ghostty
+SETUVAR --export XDG_CURRENT_DESKTOP:sway
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:3400

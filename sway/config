@@ -7,6 +7,9 @@
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+exec wl-paste --type text --watch cliphist store
+exec wl-paste --type image --watch cliphist store
 set {
   $accent #ebdbb2
   $red #cc241d
@@ -23,7 +26,7 @@ set $term ghostty
 # Your preferred application launcher
 set $menu rofi -show drun | swaymsg
 set $file rofi -show filebrowser | swaymsg
-set $browser google-chrome
+set $browser google-chrome-stable
 set $fileexp thunar
 
 default_border pixel 2
@@ -87,7 +90,7 @@ input type:keyboard {
 input "1267:12608:MSFT0001:01_04F3:3140_Touchpad" {
     dwt disabled
     tap enabled
-    natural_scroll enabled
+    #natural_scroll enabled
     middle_emulation enabled
 }
 # You can get the names of your inputs by running: swaymsg -t get_inputs
@@ -112,6 +115,9 @@ input "1267:12608:MSFT0001:01_04F3:3140_Touchpad" {
     bindsym $mod+e exec $fileexp
     # Start swaylock
     bindsym $mod+z exec wlogout
+
+    #open cliphist in rofi dmenu
+    bindsym $mod+Shift+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
