@@ -118,6 +118,10 @@ input "1267:12608:MSFT0001:01_04F3:3140_Touchpad" {
 
     #open cliphist in rofi dmenu
     bindsym $mod+Shift+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
+    # night mode
+    bindsym $mod+Shift+Ctrl+n exec wlsunset -l 39.9 -L 116.3
+    # disable nightmode
+    bindsym $mod+Ctrl+Alt+n exec killall wlsunset
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -274,6 +278,10 @@ bindsym $mod+r mode "resize"
     }
 
     bindsym --to-code Print mode $screenshot
+
+    # window rules
+    for_window [app_id="org.gnome.Characters"] floating enable
+    for_window [app_id="galculator"] floating enable
 #
 # Status Bar:
 #
