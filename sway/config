@@ -282,6 +282,8 @@ bindsym $mod+r mode "resize"
     # window rules
     for_window [app_id="org.gnome.Characters"] floating enable
     for_window [app_id="galculator"] floating enable
+    for_window [app_id="org.telegram.desktop._0defdc1ed1fdb1179f6848e51471a08e"] floating enable
+    for_window [class="xdman-Main"] floating enable
 #
 # Status Bar:
 #
