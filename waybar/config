@@ -53,6 +53,9 @@
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50
   },
+  "tray": {
+    "max-height": 5
+  },
   "sway/workspaces": {
     "disable-scroll": true
   },
