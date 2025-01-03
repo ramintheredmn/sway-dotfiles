@@ -8,11 +8,11 @@ end
 
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/ramin/.ghcup/bin # ghcup-env
 
-set -Ux QT_QPA_PLATFORMTHEME qt6ct
-set -Ux TERMINAL ghostty
-set -Ux TERMINALEMULATOR ghostty
-
-set -Ux XDG_CURRENT_DESKTOP sway
+set -gx QT_QPA_PLATFORMTHEME qt6ct
+set -gx TERMINAL ghostty
+set -gx TERMINALEMULATOR ghostty
+set -gx QT_QPA_PLATFORM wayland
+set -gx XDG_CURRENT_DESKTOP sway
 #set PATH $PATH /home/ramin/miniconda3/bin
 set CUDA_HOME /opt/cuda
 set PATH $PATH $CUDA_HOME/bin

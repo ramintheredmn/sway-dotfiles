@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export QT_QPA_PLATFORM:wayland
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt6ct
 SETUVAR --export TERMINAL:ghostty
 SETUVAR --export TERMINALEMULATOR:ghostty
