@@ -24,13 +24,13 @@
 }
 {
     "label" : "logout",
-    "action" : "hyprctl dispatch exit 0",
+    "action" : "swaymsg exit",
     "text" : "Logout",
     "keybind" : "e"
 }
 {
     "label" : "suspend",
-    "action" : "hyprlock & systemctl suspend",
+    "action" : "swaylock & systemctl suspend",
     "text" : "Suspend",
     "keybind" : "u"
 }
