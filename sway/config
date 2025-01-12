@@ -262,7 +262,7 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim
 
 ### Screenshot mode:
-#
+
     set $screenshot "Screenshot: [s]creen [w]window [r]egion [R]ecord"
 
     set $screenshot-cmd ~/.config/sway/screenshot.sh
