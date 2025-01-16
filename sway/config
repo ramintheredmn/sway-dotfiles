@@ -8,6 +8,7 @@
 #
 # Logo key. Use Mod1 for Alt.
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+exec sudo ~/lowersway
 exec wl-paste --type text --watch cliphist store
 exec wl-paste --type image --watch cliphist store
 set {
@@ -26,6 +27,7 @@ set $term ghostty
 # Your preferred application launcher
 set $menu rofi -show drun | swaymsg
 set $file rofi -show filebrowser | swaymsg
+set $run rofi -show run | swaymsg
 set $browser google-chrome-stable
 set $fileexp thunar
 
@@ -108,6 +110,8 @@ input "1267:12608:MSFT0001:01_04F3:3140_Touchpad" {
 
     # Start your launcher
     bindsym $mod+d exec $menu
+    # start runner
+    bindsym $mod+Shift+d exec $run
 
     # Start browser
     bindsym $mod+b exec $browser
