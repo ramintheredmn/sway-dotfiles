@@ -264,6 +264,9 @@ bindsym $mod+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+    bindsym --locked $mod+Ctrl+minus exec brightnessctl set 5%-
+    bindsym --locked $mod+Ctrl+equal exec brightnessctl set 5%+
+
     # Special key to take a screenshot with grim
 
 ### Screenshot mode:
