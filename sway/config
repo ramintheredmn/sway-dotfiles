@@ -124,7 +124,7 @@ input "1267:12608:MSFT0001:01_04F3:3140_Touchpad" {
     #open cliphist in rofi dmenu
     bindsym $mod+Shift+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
     # night mode
-    bindsym $mod+Shift+Ctrl+n exec wlsunset -l 39.9 -L 116.3
+    bindsym $mod+Ctrl+Shift+n exec wlsunset
     # disable nightmode
     bindsym $mod+Ctrl+Alt+n exec killall wlsunset
 
