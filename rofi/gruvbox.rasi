@@ -17,7 +17,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       350px;
+    width:                       750px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -40,8 +40,8 @@ mainbox {
 }
 
 listbox {
-    spacing:                     20px;
-    padding:                     20px;
+    spacing:                     10px;
+    padding:                     10px;
     background-color:            transparent;
     orientation:                 vertical;
     children:                    [ "message", "listview", "mode-switcher" ];
@@ -51,7 +51,7 @@ listbox {
 inputbar {
     enabled:                     true;
     spacing:                     10px;
-    padding:                     60px 40px;
+    padding:                     30px 20px;
     background-color:            @background-dark;
     background-image:            url("~/Pictures/walls/w12.png", width);
     text-color:                  @foreground;
