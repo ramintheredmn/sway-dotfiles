@@ -9,11 +9,9 @@
 
   "modules-left": [
     "custom/rofi",
-    "sway/workspaces",
-    "custom/paddc",
-    "sway/window",
-    "custom/paddc",
     "tray",
+    "sway/workspaces",
+    "sway/window",
     "sway/mode"
   ],
 
@@ -21,20 +19,13 @@
 
   "modules-right": [
     "pulseaudio",
-    "custom/paddc",
-    "custom/paddc",
     "bluetooth",
     // "custom/paddc",
     "battery",
-    "custom/paddc",
     "custom/notification",
-    "custom/paddc",
     "custom/wifi",
-    "custom/paddc",
     "clock#date",
-    "custom/paddc",
     "clock#time",
-    "custom/paddc",
   ],
 
   "custom/rofi": {
