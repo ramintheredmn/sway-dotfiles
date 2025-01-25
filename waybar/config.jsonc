@@ -9,7 +9,6 @@
 
   "modules-left": [
     "custom/rofi",
-    "tray",
     "sway/workspaces",
     "sway/window",
     "sway/mode"
@@ -18,11 +17,13 @@
   "modules-center": ["mpris"],
 
   "modules-right": [
+    "tray",
     "pulseaudio",
     "bluetooth",
     // "custom/paddc",
     "battery",
     "custom/notification",
+    "custom/backlight",
     "custom/wifi",
     "clock#date",
     "clock#time",

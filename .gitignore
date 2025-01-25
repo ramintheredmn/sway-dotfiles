@@ -2,6 +2,7 @@
 !.gitignore
 !README.md
 !waybar/
+!waybar_back/
 !qt6ct/
 !fish/
 !rofi/
