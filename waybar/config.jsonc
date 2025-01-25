@@ -21,8 +21,6 @@
 
   "modules-right": [
     "pulseaudio",
-    "custom/backlight",
-    "hyprland/language",
     "custom/paddc",
     "custom/paddc",
     "bluetooth",
