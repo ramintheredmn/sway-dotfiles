@@ -22,6 +22,7 @@ alias vina /home/ramin/Desktop/personal/cheminfo/vina_1.2.5_linux_x86_64
 alias authkon /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 alias autogrid /home/ramin/AutoGrid/build/autogrid4
 alias autodock /home/ramin/AutoDock4/build/autodock4
+alias pr 'http_proxy=127.0.0.1:2080 https_proxy=127.0.0.1:2080'
 alias make50 'make CC=clang CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow" LDLIBS="-lcrypt -lcs50 -lm"'
 
 #alias hovercraft="~/hovervenv/bin/python ~/hovervenv/bin/hovercraft"
