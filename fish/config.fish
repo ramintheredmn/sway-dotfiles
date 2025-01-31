@@ -16,6 +16,7 @@ set -gx XDG_CURRENT_DESKTOP sway
 #set PATH $PATH /home/ramin/miniconda3/bin
 set CUDA_HOME /opt/cuda
 set PATH $PATH $CUDA_HOME/bin
+alias clion /opt/clion/bin/clion
 alias adgpu /home/ramin/Desktop/personal/cheminfo/adgpu
 alias obv /home/ramin/Desktop/oblivion/oblivion-desktop
 alias vina /home/ramin/Desktop/personal/cheminfo/vina_1.2.5_linux_x86_64

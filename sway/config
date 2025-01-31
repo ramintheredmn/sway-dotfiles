@@ -30,7 +30,7 @@ set $term ghostty
 set $menu rofi -show drun | swaymsg
 set $file rofi -show filebrowser | swaymsg
 set $run rofi -show run | swaymsg
-set $browser google-chrome-stable
+set $browser zen-browser
 set $fileexp thunar
 
 default_border pixel 2
